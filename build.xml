@@ -22,7 +22,6 @@
         </delete>
         <echo> Cleaned old war file in build folder !</echo>
     </target>
-
     <target name="cleanDeploy">
         <delete>
             <fileset dir="${deployDest}">
